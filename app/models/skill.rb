@@ -1,5 +1,6 @@
 class Skill < ApplicationRecord
   include Placeholder
+  
   validates_presence_of :title, :body, :main_image, :thumb_image
   
   after_initialize :set_defaults
