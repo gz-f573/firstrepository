@@ -12,7 +12,11 @@
   </thead>
 
   <tbody>
+    
+    <%= link_to 'Have something to say?', new_blog_path %>
+    
     <% @blogs.each do |blog| %>
+    
       <tr>
         <td><%= blog.title %></td>
         <td><%= blog.body %></td>
