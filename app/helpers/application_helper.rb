@@ -17,6 +17,6 @@ module ApplicationHelper
   end
   
   def copyright_generator
-    DevcampViewTool::Renderer.copyright 'Bleu from all the .io games you lost', 'All rights reserved'
+    DevcampViewTool::Renderer.copyright 'I am just a random person', 'All rights reserved'
   end
 end
