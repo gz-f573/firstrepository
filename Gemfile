@@ -34,9 +34,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
-
 gem 'bootstrap', '~> 4.0.0.alpha6'
-
 gem 'devcamp_view_tool', git: 'https://github.com/gz-f573/devcamp_view_tool'
 gem 'petergate', '~> 1.7', '>= 1.7.5'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
@@ -48,3 +46,5 @@ gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.10'
 gem 'gritter', '~> 1.2'
+gem 'twitter', '~> 6.1'
+gem 'redis', '~> 3.3', '>= 3.3.3'
